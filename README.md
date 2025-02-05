@@ -1,6 +1,6 @@
 # currency_converter
 
-A new Flutter project.
+This is my first flutter project, a curreny converter app that converts currency in Dollar to Naira.
 
 ## Getting Started
 
