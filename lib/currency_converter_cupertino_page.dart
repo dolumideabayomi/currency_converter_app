@@ -11,6 +11,12 @@ class _CurrencyConverterCupertinoPage extends State<CurrencyConverterCupertinoPa
     double result = 0;
   final TextEditingController textEditingController = TextEditingController();
 
+  @override
+  void dispose() {
+    textEditingController.dispose();
+    super.dispose();
+  }
+
  @override
   Widget build(BuildContext context) {
     print("rebuilt");
